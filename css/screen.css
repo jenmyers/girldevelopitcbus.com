@@ -1,0 +1,370 @@
+
+/*
+	Girl Develop it Columbus ~ Design by Jen Myers 2012
+*/
+
+/* test grid */
+div#test {
+	background-image:	url('images/grid-50.png');
+	width:					1020px;
+	height:					1050px;
+	position:				absolute;
+	top:					-5px;
+	left:					0;
+}
+
+/*  RESET  */
+
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,img,ins,kbd,q,s,samp,
+small,strike,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,
+footer,hgroup,menu,nav,section,summary,
+time,mark,audio,video , p{
+  border: 					0;
+  font: 					inherit;
+  margin: 					0;
+  outline: 					0;
+  padding: 					0;
+  vertical-align: 			baseline;
+}
+
+/* BASE */
+body {
+  background-color: #fe5a61;
+	font-family: "Georgia", serif;
+	font-size: 1em;
+	line-height: 140%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+#topbar {
+  background-color: #222222;
+  height: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#aboutus p  {
+	
+}
+
+#team_blurb p {
+
+}
+
+#aboutus a {
+	font-style:				italic;
+}
+
+.submit , h4 , #locations {
+	font-family: 			"Open Sans".
+							"Arial Rounded MT Bold",
+							Helvetica,
+							Arial,
+							sans-serif;
+	font-weight:			700;
+	font-size:				100%;
+}
+
+h4 {
+	font-weight:			800;
+	text-transform: 		uppercase;	
+	font-size:				120%;	
+}
+
+#class_pic {
+	float:					left;
+}
+
+
+
+
+/*	global stuff		*/
+
+
+a img {
+	text-decoration: 		none;
+	border: 				0 none;
+}
+
+.clear {
+	clear:					both;
+}
+
+.left {
+	float:					left;
+}
+
+
+h4 {
+	margin:					0;
+}
+
+
+/*	IDed divs		*/
+
+#main {
+	width:					1020px;
+	margin:					auto;
+	position:				relative;
+}
+
+
+/*	Elements that are common to all each of the sections */
+#organization , #slogan , #media , #iconography , #locations {
+	width:					990px;
+	clear:					both;
+	padding:				0 0 0 30px;
+}
+
+
+
+#organization  {
+	padding-top:			31px;
+	padding-bottom:			24px;
+}
+
+
+ #media  {
+	padding-top:			24px;
+	padding-bottom:			25px;
+ }
+
+ #locations  {
+	padding-top:			18px;
+	padding-bottom:			40px;
+ }
+ 
+
+#logo {
+	float: left;
+	width: 438px;
+}
+
+#nav {
+	float: right;
+	margin-top: 80px;
+  padding: 0;
+  width: 510px;
+}
+
+#nav li {
+  display: inline;
+  font-family: "proxima-nova", sans-serif;
+	font-weight: 500;
+	font-size: 110%;
+	list-style: none;
+	margin-left: 15px;
+	text-transform: uppercase;	
+}
+
+#nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+#topics {
+  border-bottom: 1px solid #fe8389;
+  border-top: 1px solid #fe8389;
+  padding: 40px 0;
+}
+
+.tagline {
+  color: #fff;
+  font-family: "Pacifico", cursive;
+  font-size: 200%;
+  margin-bottom: 40px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #8B2F33;
+}
+
+.topic-box {
+  float: left;
+  width: 312px;
+}
+
+.black-bar {
+  background-color: #222;
+  width: 100%;
+}
+
+.white-bar {
+  background-color: #fff;
+  width: 100%;
+}
+
+
+
+#organization {
+	background-color:		#FFFFFF;
+}
+
+#organization  h4 {
+	color:					#8b2f33;
+	padding:				0 0 15px 0;
+}
+
+/* Main Icons */
+#iconography a img {
+	padding-right:			16px;
+}
+
+/*	parterns & team are inside 'organization' */
+#partners , #team {
+	width:					470px;
+	float:					left;
+}
+
+#partners {
+	padding:				6px 16px 0 4px;
+}
+
+#team {
+	padding:				6px 0px 0 4px;
+}
+
+
+#partners a {
+	margin:					0px 18px 0px 0px;
+}
+
+#team_blurb {
+	float:					right;
+	width:					350px;
+}
+
+/* Location */
+
+#locations {
+	font-size:				100%;
+	background-color:		#FFFFFF;
+	color:					#8B2F33;
+	text-transform: 		uppercase;
+}
+
+#locations a, #locations a:visited  {
+	color:					#8B2F33;
+	text-decoration:		none;
+}
+
+#locations ul {
+	float:					left;
+	font-weight:			700;
+	margin-left:			0;
+	padding-left:			0;
+}
+
+#locations li {
+	color:					#FE5A61;
+	list-style-image: 		url('images/GDIN_bullet.png');
+	float:					left;
+	margin:					12px 18px;
+}
+
+#locations li.GDIN {
+	color:					#8B2F33;
+	list-style-type: 		none;
+	list-style-image: 		none;
+	margin-left:			0;
+}
+
+#locations li.newloc {
+	color:					#7F7F7F;
+}
+
+#locations li.newloc a {
+	color:					#222222;
+	text-decoration:		none;
+}
+
+
+
+
+.menu li a , .menu li a:visited {
+	color:					#FFFFFF;
+	text-decoration: 		none;
+}
+
+.menu li a:hover {
+	background-color:		#000000;
+	color:					#0a858d;
+}
+
+#media {
+	background-color:		#222222;
+	color:					#FFFFFF;
+	font-size:				11pt;
+	margin-top: 			64px;
+	
+}
+
+#media a, #media a:visited, #media a:active {
+	color:					#FFFFFF;
+	text-decoration:		none;
+	padding:				0 12px 0 0;
+}
+
+#media a:hover  {
+	color:					#02AAB5;
+}
+
+#media h4 {
+	color:					#02AAB5;
+	padding:				0 0 10px 0;
+}
+
+#aboutus , #connect, #maillist {
+	width:					262px;
+	float:					left;
+}
+
+#connect, #maillist {
+	padding-left:			65px; 
+}
+
+
+.email {
+	background:				#FFFFFF url(images/email.png) no-repeat 4px 4px;
+	padding:				4px 4px 4px 30px;
+	width:					268px;
+	height:					18px;
+	margin: 				4px 0 0 0;
+}
+
+.email , .submit {
+    -moz-border-radius: 	5px;
+    -webkit-border-radius: 	5px;
+    -khtml-border-radius: 	5px;
+    border-radius: 			5px;
+}
+
+
+
+.submit {
+	clear:					both;
+	float:					right;
+    margin: 				7px -42px 0;
+    padding: 				2px 5px;
+}
