@@ -84,10 +84,10 @@ body {
 }
 
 .email , .submit {
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
-  -khtml-border-radius: 6px;
-  border-radius: 6px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
   border: none;
 }
 
@@ -231,10 +231,10 @@ a img {
 
 #nav li a:hover {
   background-color: #222;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-  -khtml-border-radius: 2px;
-  border-radius: 2px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
   color: #02aab5;
   padding: 4px;
   -webkit-transition: all 1s ease;
@@ -245,6 +245,18 @@ a img {
 
 #topics a, #connect a, #partners a, #footer a, .black-bar a {
   border-bottom: none;
+}
+
+a .tagline {
+  color: #fe8389;
+}
+
+a:hover .tagline {
+  color: #fff;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .black-bar a:hover {
@@ -259,5 +271,3 @@ a img {
   margin-right: 20px;
   padding: 4px;
 }
-
-
