@@ -2,16 +2,6 @@
 	Girl Develop it Columbus ~ Design by Jen Myers 2012
 */
 
-/* test grid */
-div#test {
-	background-image:	url('images/grid-50.png');
-	width:					1020px;
-	height:					1050px;
-	position:				absolute;
-	top:					-5px;
-	left:					0;
-}
-
 /*  RESET  */
 
 html,body,div,span,applet,object,iframe,
@@ -32,9 +22,11 @@ time,mark,audio,video , p{
   outline: 0;
   padding: 0;
   vertical-align: baseline;
+  list-style-type: none;
 }
 
-/* BASE */
+/* LAYOUT */
+
 body {
   background-color: #fe5a61;
 	font-family: "Georgia", serif;
@@ -52,149 +44,23 @@ body {
   height: 6px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-#aboutus p  {
-	
-}
-
-#team_blurb p {
-
-}
-
-#aboutus a {
-	font-style:				italic;
-}
-
-.submit , h4 , #locations {
-	font-family: 			"Open Sans".
-							"Arial Rounded MT Bold",
-							Helvetica,
-							Arial,
-							sans-serif;
-	font-weight:			700;
-	font-size:				100%;
-}
-
-h4 {
-	font-family: "proxima-nova", sans-serif;
-  font-size: 110%;
-  font-weight: normal;
-  letter-spacing: 1px;
-  margin-bottom: 12px;
-  text-transform: uppercase;
-}
-
-#class_pic {
-	float:					left;
-}
-
-
-
-
-/*	global stuff		*/
-
-
-a img {
-	text-decoration: 		none;
-	border: 				0 none;
-}
-
-.clear {
-	clear:					both;
-}
-
-.left {
-	float:					left;
-}
-
-
-/*	IDed divs		*/
-
-#main {
-	width:					1020px;
-	margin:					auto;
-	position:				relative;
-}
-
-
-/*	Elements that are common to all each of the sections */
-#organization , #slogan , #media , #iconography , #locations {
-	width:					990px;
-	clear:					both;
-	padding:				0 0 0 30px;
-}
-
-
-
-#organization  {
-	padding-top:			31px;
-	padding-bottom:			24px;
-}
-
-
- #media  {
-	padding-top:			24px;
-	padding-bottom:			25px;
- }
-
- #locations  {
-	padding-top:			18px;
-	padding-bottom:			40px;
- }
- 
-
 #logo {
-	float: left;
-	width: 438px;
+  float: left;
+  width: 438px;
 }
 
 #nav {
-	float: right;
-	margin-top: 80px;
+  float: right;
+  margin-top: 80px;
   padding: 0;
   width: 510px;
 }
 
-#nav li {
-  display: inline;
-  font-family: "proxima-nova", sans-serif;
-	font-weight: 500;
-	font-size: 110%;
-	list-style: none;
-	margin-left: 15px;
-	text-transform: uppercase;	
-}
-
-#nav li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-
 #topics {
   border-bottom: 1px solid #fe8389;
   border-top: 1px solid #fe8389;
-  padding: 40px 0;
-}
-
-.tagline {
-  color: #fff;
-  font-family: "Pacifico", cursive;
-  font-size: 200%;
+  padding: 30px 0 0 0;
   margin-bottom: 40px;
-  text-align: center;
-  text-shadow: 1px 1px 1px #8B2F33;
 }
 
 .topic-box {
@@ -204,163 +70,17 @@ a img {
 
 .black-bar {
   background-color: #222;
-  padding: 30px 0;
+  padding: 20px 0;
   width: 100%;
 }
 
-.black-bar h4 {
-  color: #02aab5;
+#about-us , #connect, #mail-list {
+ width: 262px;
+ float: left;
 }
 
-.black-bar p {
-  color: #fff;
-  font-size: 95%;
-  line-height: 140%;
-}
-
-#connect li {
-  display: inline;
-  float: left;
-  margin-right: 12px;
-}
-
-.white-bar {
-  background-color: #fff;
-  padding: 30px 0;
-  width: 100%;
-}
-
-.white-bar h4 {
-  color: #8b2f33;
-}
-
-
-
-#organization {
-	background-color:		#FFFFFF;
-}
-
-#organization  h4 {
-	color:					#8b2f33;
-	padding:				0 0 15px 0;
-}
-
-/* Main Icons */
-#iconography a img {
-	padding-right:			16px;
-}
-
-/*	parterns & team are inside 'organization' */
-#partners , #team {
-	width:					470px;
-	float:					left;
-}
-
-#partners {
-	padding:				6px 16px 0 4px;
-}
-
-#team {
-	padding:				6px 0px 0 4px;
-}
-
-
-#partners a {
-	margin:					0px 18px 0px 0px;
-}
-
-#team_blurb {
-	float:					right;
-	width:					350px;
-}
-
-/* Location */
-
-#locations {
-	font-size:				100%;
-	background-color:		#FFFFFF;
-	color:					#8B2F33;
-	text-transform: 		uppercase;
-}
-
-#locations a, #locations a:visited  {
-	color:					#8B2F33;
-	text-decoration:		none;
-}
-
-#locations ul {
-	float:					left;
-	font-weight:			700;
-	margin-left:			0;
-	padding-left:			0;
-}
-
-#locations li {
-	color:					#FE5A61;
-	list-style-image: 		url('images/GDIN_bullet.png');
-	float:					left;
-	margin:					12px 18px;
-}
-
-#locations li.GDIN {
-	color:					#8B2F33;
-	list-style-type: 		none;
-	list-style-image: 		none;
-	margin-left:			0;
-}
-
-#locations li.newloc {
-	color:					#7F7F7F;
-}
-
-#locations li.newloc a {
-	color:					#222222;
-	text-decoration:		none;
-}
-
-
-
-
-.menu li a , .menu li a:visited {
-	color:					#FFFFFF;
-	text-decoration: 		none;
-}
-
-.menu li a:hover {
-	background-color:		#000000;
-	color:					#0a858d;
-}
-
-#media {
-	background-color:		#222222;
-	color:					#FFFFFF;
-	font-size:				11pt;
-	margin-top: 			64px;
-	
-}
-
-#media a, #media a:visited, #media a:active {
-	color:					#FFFFFF;
-	text-decoration:		none;
-	padding:				0 12px 0 0;
-}
-
-#media a:hover  {
-	color:					#02AAB5;
-}
-
-#media h4 {
-	color:					#02AAB5;
-	padding:				0 0 10px 0;
-}
-
-#aboutus , #connect, #maillist {
-	width:					262px;
-	float:					left;
-}
-
-#connect, #maillist {
-	padding-left:			65px; 
+#connect, #mail-list {
+  padding-left: 65px; 
 }
 
 .email , .submit {
@@ -390,3 +110,154 @@ a img {
   padding: 4px 8px;
   text-transform: uppercase;
 }
+
+.white-bar {
+  background-color: #fff;
+  padding: 30px 0;
+  width: 100%;
+}
+
+#partners , #team {
+  width: 468px;
+  float: left;
+}
+
+#partners {
+  padding: 6px 16px 0 4px;
+}
+
+#team {
+  padding: 6px 0px 0 4px;
+}
+
+#footer {
+  border-top: 1px solid #ffd6d7;
+  margin-top: 40px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+}
+
+/* TYPOGRAPHY */
+
+h4 {
+	font-family: "proxima-nova", sans-serif;
+  font-size: 110%;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+#nav li {
+  display: inline;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 500;
+  list-style: none;
+  margin-left: 15px;
+  text-transform: uppercase;	
+}
+
+.tagline {
+  color: #fff;
+  font-family: "Pacifico", cursive;
+  font-size: 200%;
+  margin-bottom: 40px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #8B2F33;
+}
+
+.black-bar h4 {
+  color: #02aab5;
+}
+
+.black-bar p {
+  color: #fff;
+  font-size: 95%;
+  line-height: 140%;
+}
+
+#connect li {
+  display: inline;
+  float: left;
+  margin-right: 12px;
+}
+
+#partners li {
+  display: inline;
+}
+
+.white-bar h4 {
+  color: #8b2f33;
+}
+
+#footer li {
+  color: #8B2F33;
+  display: inline;
+  font-family: "proxima-nova", sans-serif;
+  font-size: 95%;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+/* ANCHORS */
+
+a {
+  color: #02aab5;
+  border-bottom: 1px solid #ccc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+  border-bottom: 1px solid #999;
+}
+
+a img {
+  border: none;
+}
+
+#nav li a {
+  border-bottom: none;
+  color: #fff;
+  padding: 4px;
+  text-decoration: none;
+}
+
+#nav li a:hover {
+  background-color: #222;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+  color: #02aab5;
+  padding: 4px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+#topics a, #connect a, #partners a, #footer a, .black-bar a {
+  border-bottom: none;
+}
+
+.black-bar a:hover {
+  color: #fff;
+}
+
+/* IMAGES */
+
+#team img {
+  border: 1px solid #ccc;
+  float: left;
+  margin-right: 20px;
+  padding: 4px;
+}
+
+
