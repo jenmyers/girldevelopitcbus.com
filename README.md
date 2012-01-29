@@ -5,6 +5,6 @@ Yea, verily, this doth be the repository for girldevelopitcbus.com. In the dawn 
 Frontiers we have yet to conquer:
 
 * mark up secondary page layout
-* create content pages
+* mark up blog page layout
+* insert content
 * update current sponsor logos
-* hook up proper pages/layouts
