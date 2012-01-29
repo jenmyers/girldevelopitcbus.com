@@ -4,8 +4,7 @@ Yea, verily, this doth be the repository for girldevelopitcbus.com. In the dawn 
 
 Frontiers we have yet to conquer:
 
-* finish index page layout
-* create secondary page layout
-* apply anchor styles
-* create sprites/rollovers for index icons
+* mark up secondary page layout
+* create content pages
+* update current sponsor logos
 * hook up proper pages/layouts
