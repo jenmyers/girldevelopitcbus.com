@@ -5,6 +5,8 @@ Yea, verily, this doth be the repository for girldevelopitcbus.com. In the dawn 
 Frontiers we have yet to conquer:
 
 * mark up secondary page layout
-* mark up blog page layout
+  * create individual layouts for content sections?
 * insert content
 * update current sponsor logos
+* hook up dynamic page titles
+* research pulling in Meetup calendar data
