@@ -15,7 +15,7 @@ fieldset,form,label,legend,
 table,caption,tbody,tfoot,thead,tr,th,td,
 article,aside,canvas,details,figcaption,figure,
 footer,hgroup,menu,nav,section,summary,
-time,mark,audio,video , p{
+time,mark,audio,video {
   border: 0;
   font: inherit;
   margin: 0;
@@ -29,9 +29,10 @@ time,mark,audio,video , p{
 
 body {
   background-color: #fe5a61;
-	font-family: "Georgia", serif;
-	font-size: 1em;
-	line-height: 140%;
+  color: #222;
+  font-family: "proxima-nova", sans-serif;
+  font-size: 1em;
+  line-height: 140%;
 }
 
 .container {
@@ -40,7 +41,7 @@ body {
 }
 
 #topbar {
-  background-color: #222222;
+  background-color: #222;
   height: 6px;
 }
 
@@ -59,7 +60,6 @@ body {
 #topics {
   border-bottom: 1px solid #fe8389;
   border-top: 1px solid #fe8389;
-  padding: 30px 0 0 0;
   margin-bottom: 40px;
 }
 
@@ -130,6 +130,23 @@ body {
   padding: 6px 0px 0 4px;
 }
 
+#page-content {
+  float: left;
+  width: 632px;
+}
+
+#sidebar {
+  background-color: #222;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  float: right;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 268px;
+}
+
 #footer {
   border-top: 1px solid #ffd6d7;
   margin-top: 40px;
@@ -143,8 +160,12 @@ body {
 
 /* TYPOGRAPHY */
 
-h4 {
-	font-family: "proxima-nova", sans-serif;
+h2 {
+  font-size: 220%;
+  font-weight: bold;
+}
+
+h3 {
   font-size: 110%;
   font-weight: normal;
   letter-spacing: 1px;
@@ -152,9 +173,42 @@ h4 {
   text-transform: uppercase;
 }
 
+h4 {
+  font-size: 125%;
+  margin-top: 20px;
+}
+
+h5 {
+  font-size: 85%;
+  text-transform: uppercase;
+}
+
+.white-bar h2, .white-bar h3 {
+  color: #8b2f33;
+}
+
+.black-bar h3 {
+  color: #02aab5;
+}
+
+#sidebar h3 {
+  color: #02aab5;
+  clear: both;
+  padding-top: 20px;
+}
+
+#sidebar h4 {
+  color: #fff;
+  margin-left: 20px;
+}
+
+#sidebar h5 {
+  color: #999;
+  margin-left: 20px;
+}
+
 #nav li {
   display: inline;
-  font-family: "proxima-nova", sans-serif;
   font-weight: 500;
   list-style: none;
   margin-left: 15px;
@@ -170,10 +224,6 @@ h4 {
   text-shadow: 1px 1px 1px #8B2F33;
 }
 
-.black-bar h4 {
-  color: #02aab5;
-}
-
 .black-bar p {
   color: #fff;
   font-size: 95%;
@@ -186,12 +236,15 @@ h4 {
   margin-right: 12px;
 }
 
-#partners li {
+#connect-sidebar li {
   display: inline;
+  float: left;
+  margin-left: 7px;
+  margin-right: 7px;
 }
 
-.white-bar h4 {
-  color: #8b2f33;
+#partners li {
+  display: inline;
 }
 
 #footer li {
@@ -243,7 +296,7 @@ a img {
   transition: all 1s ease;
 }
 
-#topics a, #connect a, #partners a, #footer a, .black-bar a {
+#topics a, #connect a, #partners a, #footer a, .black-bar a, #sidebar a {
   border-bottom: none;
 }
 
