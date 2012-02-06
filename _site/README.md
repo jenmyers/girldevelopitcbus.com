@@ -11,6 +11,7 @@ Frontiers we have yet to conquer:
 * add social media to blog posts
 * hook up dynamic page titles
 * update current sponsor logos
+* add icons to sidebar items
 * add media queries for responsive layout
 * research pulling in Meetup calendar data
 * clean up contact form
