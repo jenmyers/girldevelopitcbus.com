@@ -143,10 +143,12 @@ body {
 }
 
 #partners {
+  margin-bottom: 20px;
   padding: 6px 16px 0 4px;
 }
 
 #team {
+  margin-bottom: 20px;
   padding: 6px 0px 0 4px;
 }
 
@@ -219,7 +221,11 @@ h5 {
   color: #02aab5;
 }
 
-.home h3 {
+.black-bar.home h3 {
+  margin-top: 10px;
+}
+
+.white-bar.home h3 {
   margin-top: 0px;
 }
 
