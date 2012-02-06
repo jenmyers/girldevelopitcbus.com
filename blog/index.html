@@ -5,11 +5,13 @@ title: Blog
   
   <div id="posts">
 
-  	{% for post in site.posts offset: 0 limit: 10 %}
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        {{ post.date | date_to_string }}
-         {{ post.content }}
+  	    {% for post in site.posts offset: 0 limit: 10 %}
+  	      <div class="post-single">
+    	      <h3>{{ post.date | date_to_string }}</h3>
+            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            {{ post.content }}
+          </div><!-- /post-single -->
 
-    {% endfor %}
-    
-  </div>
+        {% endfor %}
+
+  </div><!-- /posts -->
