@@ -5,7 +5,12 @@ Yea, verily, this doth be the repository for girldevelopitcbus.com. In the dawn 
 Frontiers we have yet to conquer:
 
 * insert content
-* update current sponsor logos
+* create archive layout
+* create 404 layout
+* integrate tags into blog
+* add social media to blog posts
 * hook up dynamic page titles
-* hook up current page link display in navigation
+* update current sponsor logos
+* add media queries for responsive layout
 * research pulling in Meetup calendar data
+* clean up contact form
