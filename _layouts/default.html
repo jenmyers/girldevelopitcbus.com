@@ -3,82 +3,25 @@
   <div class="container">
     <a href="/"><img alt="Girl Develop It Columbus" id="logo" src="../images/logo-gdic.png" height="153" width="438" /></a>
     <ul id="nav">
-      <li><a href="../classes/">Classes</a></li>
+      <li><a class="classes" href="../classes/">Classes</a></li>
       <li><a href="../community/">Community</a></li>
       <li><a href="../resources/">Resources</a></li>
       <li><a href="../blog/">Blog</a></li>
       <li><a href="../contact/">Contact</a></li>
     </ul> <!-- /nav -->
+  </div><!-- /container -->
 
-    <div id="topics" class="clear">
-      <p class="tagline">Want to learn how to code? Have a great idea? Don't be shy. Develop it.</p>
-      <div class="topic-box">
-        <a href="classes.html"><img src="../images/classes.png" height="250" width="306" /><p class="tagline">classes</p></a>
-      </div><!-- /topic-box -->
-      <div class="topic-box">
-        <a href="community.html"><img src="../images/community.png" height="250" width="306" /><p class="tagline">community</p></a>
-      </div><!-- /topic-box -->
-      <div class="topic-box">
-        <a href="resources.html"><img src="../images/resources.png" height="250" width="306" /><p class="tagline">resources</p></a>
-      </div><!-- /topic-box -->
-      <div class="clear"></div>
-    </div> <!-- /topics -->
-  </div> <!-- /container -->
-
-  <div class="black-bar home">
-    <div class="container">  
-
-      <div id="about-us">
-        <h3>Learn about us</h3>
-          <p>We teach classes, build community, and provide resources for coding education in Columbus, Ohio.
-          <a href="aboutus/">More &rarr;</a>
-        </p>
-      </div> <!-- /about-us -->
-
-      <div id="connect">
-        <h3>Connect with us</h3>
-        <ul>
-          <li><a class="twitter" href="http://www.twitter.com/gdicbus">Twitter</a></li>
-          <li><a class="facebook" href="http://www.facebook.com/girldevelopitcbus">Facebook</a></li>
-          <li><a class="meetup" href="http://www.meetup.com/girldevelopitcbus/">Meetup</a></li>
-          <li><a class="rss" href="http://girldevelopitcbus.com/rss/">RSS</a></li>
-        </ul>
-      </div><!-- /connect -->
-
-      <div id="mail-list">
-        <h3>Join our mailing list</h3>
-        <form action="http://groups.google.com/group/girl-develop-it-columbus/boxsubscribe">
-          <input class="email" type="text" name="email" value="">
-          <input class="submit" type="submit" name="sub" value="Subscribe">
-        </form>
-      </div> <!-- /mail-list -->
-
-      <div class="clear"> </div>
-    </div><!-- /container -->
-  </div> <!-- /black-bar -->
-
-  <div class="white-bar home">
+  <div class="white-bar clear">
     <div class="container">
+      
+      <div id="page-content">
 
-      <div id="partners">
-        <h3>Our partners &amp; sponsors</h3>
-        <ul>
-          <li><a href="http://www.girldevelopit.com/"><img src="../images/GDI.png" /></a></li>
-          <li><a href="http://www.wildgoosecreative.com/"><img src="../images/wildgoose.png" /></a></li>
-          <li><a href="http://www.columbusideafoundry.com/"><img src="../images/CIF.png" /></a></li>
-        </div> <!-- /partners -->
+        <h2>{{ page.title }}</h2>
 
-      <div id="team">
-        <h3>Our Team</h3>
-        <img src="../images/team.png" height="100" width="100" />
-        <p>
-          Our teachers and teaching assistants are web and software 
-          development professionals from the Columbus community, all 
-          dedicated to inspiring learning and education.
-          <a href="">Meet our teachers </a> or 
-          <a href="">apply to be one</a>.
-        </p>
+        {{ content }}
+          
+      </div><!-- /page-content -->
 
-        </div> <!-- end "team" -->
-
-{% include footer.html %}
+      {% include sidebar.html %}
+      
+      {% include footer.html %}
