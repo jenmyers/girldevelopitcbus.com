@@ -65,7 +65,8 @@ body {
 
 .topic-box {
   float: left;
-  width: 312px;
+  text-align: center;
+  width: 320px;
 }
 
 .black-bar {
@@ -287,6 +288,15 @@ h5 {
   margin-right: 7px;
 }
 
+#page-content ul {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+#page-content h4 {
+  color: #666;
+}
+
 #partners li {
   display: inline;
 }
@@ -305,7 +315,7 @@ h5 {
 /* ANCHORS */
 
 a {
-  color: #02aab5;
+  color: #02959F;
   border-bottom: 1px solid #ccc;
   text-decoration: none;
 }
@@ -334,10 +344,10 @@ a img {
   border-radius: 3px;
   color: #02aab5;
   padding: 4px;
-  -webkit-transition: all 0.6s ease;
-  -moz-transition: all 0.6s ease;
-  -o-transition: all 0.6s ease;
-  transition: all 0.6s ease;
+  -webkit-transition: background-color 0.3s linear;
+  -moz-transition: background-color 0.3s linear;
+  -o-transition: background-color 0.3s linear;
+  transition: background-color 0.3s linear;
 }
 
 #nav li a.classes, #nav li a.community, #nav li a.resources, #nav li a.blog, #nav li a.contact {
@@ -352,16 +362,24 @@ a img {
   border-bottom: none;
 }
 
+#footer a {
+  color: #222;
+}
+
+#footer a:hover {
+  color: #02aab5;
+}
+
 a .tagline {
   color: #fe8389;
 }
 
 a:hover .tagline {
   color: #fff;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease;
+  -webkit-transition: color 1s linear;
+  -moz-transition: color 1s linear;
+  -o-transition: color 1s linear;
+  transition: color 1s linear;
 }
 
 .black-bar a:hover {
