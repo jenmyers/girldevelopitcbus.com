@@ -4,7 +4,7 @@ Yea, verily, this doth be the repository for girldevelopitcbus.com. In the dawn 
 
 Frontiers we have yet to conquer:
 
-* insert content
+* complete content
 * create 404 layout
 * integrate tags into blog
 * update current sponsor logos
@@ -12,4 +12,4 @@ Frontiers we have yet to conquer:
 * add media queries for responsive layout
 * research pulling in Meetup calendar data
 * clean up contact form
-* figure out how to deploy the damn thing
+* change DNS records
