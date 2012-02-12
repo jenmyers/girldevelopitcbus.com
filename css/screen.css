@@ -239,7 +239,6 @@ h5 {
 #sidebar h4 {
   color: #fff;
   margin-bottom: 5px;
-  margin-left: 20px;
 }
 
 #sidebar h5 {
@@ -475,4 +474,8 @@ a.rss:hover, a.rss:active {
   float: left;
   margin-right: 20px;
   padding: 4px;
+}
+
+.sidebar-icon {
+  margin-right: 5px;
 }
