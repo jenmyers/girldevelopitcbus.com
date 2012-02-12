@@ -238,7 +238,7 @@ h5 {
 
 #sidebar h4 {
   color: #fff;
-  margin-bottom: 5px;
+  margin-left: 20px;
 }
 
 #sidebar h5 {
@@ -278,6 +278,10 @@ h5 {
   display: inline;
   float: left;
   margin-right: 12px;
+}
+
+#connect-sidebar ul {
+  margin-bottom: 20px;
 }
 
 #connect-sidebar li {

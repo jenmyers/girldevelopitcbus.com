@@ -5,9 +5,8 @@ Yea, verily, this doth be the repository for girldevelopitcbus.com. In the dawn 
 Frontiers we have yet to conquer:
 
 * complete content
-* add icons to sidebar items
 * change DNS records
+* flesh out single blog post layout
 * add media queries for responsive layout
-* integrate tags into blog
 * research pulling in Meetup calendar data
 * clean up contact form markup
