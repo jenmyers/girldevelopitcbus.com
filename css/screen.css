@@ -239,7 +239,10 @@ h5 {
 #sidebar h4 {
   color: #fff;
   margin-bottom: 5px;
+<<<<<<< HEAD
   margin-left: 20px;
+=======
+>>>>>>> gh-pages
 }
 
 #sidebar h5 {
@@ -338,10 +341,17 @@ a img {
 
 #nav li a:hover {
   background-color: #222;
+<<<<<<< HEAD
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   -khtml-border-radius: 3px;
   border-radius: 3px;
+=======
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+>>>>>>> gh-pages
   color: #02aab5;
   padding: 4px;
   -webkit-transition: background-color 0.3s linear;
@@ -376,10 +386,17 @@ a .tagline {
 
 a:hover .tagline {
   color: #fff;
+<<<<<<< HEAD
   -webkit-transition: color 1s linear;
   -moz-transition: color 1s linear;
   -o-transition: color 1s linear;
   transition: color 1s linear;
+=======
+  -webkit-transition: color 0.6s linear;
+  -moz-transition: color 0.6s linear;
+  -o-transition: color 0.6s linear;
+  transition: color 0.6s linear;
+>>>>>>> gh-pages
 }
 
 .black-bar a:hover {
@@ -475,4 +492,11 @@ a.rss:hover, a.rss:active {
   float: left;
   margin-right: 20px;
   padding: 4px;
+<<<<<<< HEAD
+=======
+}
+
+.sidebar-icon {
+  margin-right: 5px;
+>>>>>>> gh-pages
 }

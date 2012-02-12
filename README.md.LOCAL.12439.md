@@ -4,10 +4,12 @@ Yea, verily, this doth be the repository for girldevelopitcbus.com. In the dawn 
 
 Frontiers we have yet to conquer:
 
-* complete content
-* add icons to sidebar items
-* change DNS records
-* add media queries for responsive layout
+* insert content
+* create 404 layout
 * integrate tags into blog
+* update current sponsor logos
+* add icons to sidebar items
+* add media queries for responsive layout
 * research pulling in Meetup calendar data
-* clean up contact form markup
+* clean up contact form
+* figure out how to deploy the damn thing
