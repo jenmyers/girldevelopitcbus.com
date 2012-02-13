@@ -5,7 +5,11 @@ Yea, verily, this doth be the repository for girldevelopitcbus.com. In the dawn 
 Frontiers we have yet to conquer:
 
 * complete content
-* change DNS records
+  * teacher guidelines
+  * mentor guidelines
+  * current teachers
+  * current classes
+* upload favicon
 * flesh out single blog post layout
 * add media queries for responsive layout
 * research pulling in Meetup calendar data
