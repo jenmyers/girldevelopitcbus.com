@@ -1,5 +1,0 @@
-Hello again, world.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at justo dui, quis convallis ante. Aliquam in nisl augue. Cras mi nisi, ullamcorper ac faucibus at, aliquam eu ipsum. Morbi orci dolor, dictum eget pharetra a, malesuada quis est. Vivamus porttitor scelerisque augue vel auctor. Aliquam sit amet justo mauris, nec posuere lectus. Quisque leo est, lacinia ullamcorper mattis sed, vehicula in augue.
-
-Mauris tristique laoreet odio ac consectetur. Suspendisse in metus ligula, vel luctus velit. Quisque in lacus felis, volutpat placerat justo. Nunc varius congue aliquam. Aliquam sodales orci eu dui mollis sollicitudin eget ac erat. Mauris iaculis dignissim turpis, sed egestas magna ultrices vel. Curabitur non orci vel augue tempor mollis nec eu nisi. Aenean ut auctor felis.
