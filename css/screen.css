@@ -375,10 +375,10 @@ a .tagline {
 
 a:hover .tagline {
   color: #fff;
-  -webkit-transition: color 0.6s linear;
-  -moz-transition: color 0.6s linear;
-  -o-transition: color 0.6s linear;
-  transition: color 0.6s linear;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  transition: all 0.6s ease;
 }
 
 .black-bar a:hover {
