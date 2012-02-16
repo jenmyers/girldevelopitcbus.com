@@ -9,6 +9,7 @@ Frontiers we have yet to conquer:
   * mentor guidelines
   * current teachers
   * current classes
+  * create "Materials" section
 * upload favicon
 * flesh out single blog post layout
 * add media queries for responsive layout
