@@ -227,10 +227,12 @@ h5 {
 }
 
 .white-bar h2, .white-bar h3 {
+  border-bottom: none;
   color: #8b2f33;
 }
 
 .black-bar h3 {
+  border-bottom: none;
   color: #02aab5;
 }
 
