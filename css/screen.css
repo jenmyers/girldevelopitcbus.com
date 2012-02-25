@@ -196,11 +196,7 @@ body {
 /* TYPOGRAPHY */
 
 h1 {
-  background: url("../images/logo-gdic.png") 0 0 no-repeat;
-  display: inline-block;
-  height: 153px;
-  text-indent: -9999px;
-  width: 438px;
+  
 }
 
 h2 {
@@ -506,6 +502,20 @@ a.rss:hover, a.rss:active {
   height: 53px;
   text-indent: -9999px;
   width: 53px;
+}
+
+h1 a {
+  background: url("../images/logo-gdic.png") 0 0 no-repeat;
+  border-bottom: none;
+  display: inline-block;
+  float: left;
+  height: 153px;
+  text-indent: -9999px;
+  width: 438px;
+}
+
+h1 a:hover {
+  border-bottom: none;
 }
 
 /* IMAGES */
