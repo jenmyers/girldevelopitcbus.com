@@ -181,6 +181,14 @@ body {
   text-align: center;
 }
 
+.register-button {
+  border-radius: 3px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 10px;
+  width: 108px;
+}
+
 .clear {
   clear: both;
 }
@@ -204,6 +212,7 @@ h2 {
 }
 
 h3 {
+  border-bottom: 1px dotted #ffd6d7;
   font-size: 110%;
   font-weight: normal;
   letter-spacing: 1px;
@@ -213,8 +222,7 @@ h3 {
 }
 
 h4 {
-  font-size: 115%;
-  margin-top: 20px;
+  font-size: 120%;
 }
 
 h5 {
@@ -239,8 +247,9 @@ h5 {
 }
 
 #sidebar h3 {
-  color: #02aab5;
+  border-bottom: 1px dotted #333;
   clear: both;
+  color: #02aab5;
   padding-top: 20px;
 }
 
@@ -305,7 +314,16 @@ h5 {
 }
 
 #page-content h4 {
-  color: #666;
+  color: #222;
+  margin-top: 20px;
+}
+
+ul#mission li {
+  background-image: url("../images/bullet.png");
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  margin-bottom: 15px;
+  padding-left: 30px;
 }
 
 #partners li {
@@ -324,8 +342,8 @@ h5 {
 }
 
 small {
-  background-color: #eee;
-  padding: 3px;
+  color: #666;
+  text-transform: uppercase;
 }
 
 /* ANCHORS */
@@ -414,6 +432,16 @@ a:hover .tagline {
 
 #posts h2 a:hover {
   color: #222;
+}
+
+a div.register-button {
+  background-color: #ededed;
+  border-bottom: none;
+}
+
+a:hover div.register-button {
+  background-color: #222;
+  color: #fe5a61;
 }
 
 a.twitter:link, a.twitter:visited {
