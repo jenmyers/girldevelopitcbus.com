@@ -5,7 +5,6 @@ Yea, verily, this doth be the repository for girldevelopitcbus.com. In the dawn 
 Frontiers we have yet to conquer:
 
 * complete content
-  * teacher guidelines
   * mentor guidelines
   * current teachers
 * upload favicon

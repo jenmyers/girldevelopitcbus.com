@@ -171,6 +171,10 @@ body {
 }
 
 .post-single {
+  margin-bottom: 80px;
+}
+
+#post-content {
   margin-bottom: 60px;
 }
 
@@ -226,7 +230,11 @@ h5 {
   text-transform: uppercase;
 }
 
-.white-bar h2, .white-bar h3 {
+.white-bar h2 {
+  color: #8b2f33;
+}
+
+.white-bar h3 {
   border-bottom: none;
   color: #8b2f33;
 }
@@ -261,7 +269,7 @@ h5 {
   margin-left: 20px;
 }
 
-#posts h3 {
+.post-single h3 {
   float: right;
   margin-top: 5px;
 }
@@ -531,4 +539,30 @@ h1 a:hover {
 
 .sidebar-icon {
   margin-right: 5px;
+}
+
+/* COMMENTS */
+
+#disqus_thread {
+  border-top: 1px dotted #ffd6d7;
+}
+
+#dsq-footer {
+  font-size: 90%;
+}
+
+#dsq-footer a {
+  border-bottom: none;
+}
+
+#dsq-content h3 {
+  font-size: 80%;
+}
+
+#dsq-sort-by {
+  margin-left: 10px;
+}
+
+#dsq-content .dsq-post-tools li.dsq-share-on h4 {
+  margin-top: 0;
 }

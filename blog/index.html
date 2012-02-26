@@ -10,6 +10,7 @@ title: Blog
     	      <h3>{{ post.date | date_to_string }}</h3>
             <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
             {{ post.content }}
+            {{ post.tags }}
           </div><!-- /post-single -->
 
         {% endfor %}
