@@ -7,7 +7,6 @@ Frontiers we have yet to conquer:
 * complete content
   * mentor guidelines
   * current teachers
-* upload favicon
 * flesh out single blog post layout
 * add media queries for responsive layout
 * research pulling in Meetup calendar data

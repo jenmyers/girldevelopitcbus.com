@@ -3,12 +3,11 @@ layout: blog
 ---
 
 <div class="post-single">
-  <h3>{{ page.date | date_to_string }}</h3>
   <h2>{{ page.title }}</h2>
+  <h3>By {{ page.post_author }} | {{ page.date | date_to_string }} | Tagged: {{ page.tags }}</h3>
   <div id="post-content">
     {{ content }}
   </div>
-  {{ page.tags }}
 
   {% if page.comments %}
   <h4>Comments</h4>
