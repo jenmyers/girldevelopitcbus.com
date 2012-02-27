@@ -271,6 +271,10 @@ h5 {
   margin-top: 10px;
 }
 
+.post-single h4 {
+  text-align: right;
+}
+
 #nav li {
   display: inline;
   font-weight: 500;
