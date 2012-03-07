@@ -10,3 +10,11 @@ Frontiers we have yet to conquer:
 * add media queries for responsive layout
 * research pulling in Meetup calendar data
 * clean up contact form markup
+
+
+### How to update the site
+
+* Prerequisite - You will need to have ruby installed with the jekyll gem
+* Make your changes to the files as needed
+* Run the command jekyll at the root of the project.  This will generate files in the _site folder
+* commit the base project files you edited as well as the corresponding _site folder files.
