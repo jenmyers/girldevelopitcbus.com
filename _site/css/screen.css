@@ -335,6 +335,7 @@ ul#mission li {
 
 #partners li {
   display: inline;
+  margin-right: 5px;
 }
 
 #footer li {
