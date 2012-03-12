@@ -186,6 +186,9 @@ body {
 }
 
 .register-button {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
   border-radius: 3px;
   margin-bottom: 20px;
   margin-top: 10px;
@@ -290,6 +293,16 @@ h5 {
   margin-bottom: 40px;
   text-align: center;
   text-shadow: 1px 1px 1px #8B2F33;
+}
+
+.callout {
+  background: #eee;
+  border: 1px solid #ddd;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  padding: 10px;
 }
 
 .black-bar p {
