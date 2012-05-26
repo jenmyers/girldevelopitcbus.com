@@ -400,6 +400,10 @@ a img {
   border-radius: 2px;
   color: #02aab5;
   padding: 4px;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  transition: all 0.6s ease;
 }
 
 #nav li a.classes, #nav li a.community, #nav li a.resources, #nav li a.blog, #nav li a.contact {
