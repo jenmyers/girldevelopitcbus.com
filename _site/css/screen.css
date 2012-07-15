@@ -236,6 +236,7 @@ h5 {
 .white-bar h3 {
   border-bottom: none;
   color: #8b2f33;
+  margin-top: 40px;
 }
 
 .black-bar h3 {
@@ -255,7 +256,6 @@ h5 {
   border-bottom: 1px dotted #333;
   clear: both;
   color: #02aab5;
-  padding-top: 20px;
 }
 
 #sidebar h4 {
@@ -399,6 +399,10 @@ a img {
   border-radius: 2px;
   color: #02aab5;
   padding: 4px;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  transition: all 0.6s ease;
 }
 
 #nav li a.classes, #nav li a.community, #nav li a.resources, #nav li a.blog, #nav li a.contact {

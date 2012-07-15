@@ -5,16 +5,13 @@
   <title>Girl Develop It Columbus | Hello World</title>
   <meta name="description" content="A software and web development education program in Columbus, Ohio aimed at providing an open and supportive learning environment.">
   <meta name="author" content="Jen Myers">
-  <link rel="stylesheet" type="text/css" media="screen" href="../css/screen.css" />
-  <script type="text/javascript" src="http://use.typekit.com/igm2mgz.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <link href="../stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> 
   <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
   <link rel="shortcut icon" href="favicon.ico">
 </head>
 
 <body>
 
-  <div id="topbar"></div>
 
   <div class="container">
     <a href="/"><img alt="Girl Develop It Columbus" id="logo" src="../images/logo-gdic.png" height="153" width="438" /></a>
@@ -62,9 +59,9 @@
           
       </div><!-- /page-content -->
       
-      <div id="sidebar">
+      <div class="sidebar">
   
-  <ul id="connect-sidebar">
+  <ul class="connect-sidebar">
     <li><a class="twitter" href="http://www.twitter.com/gdicbus">Twitter</a></li>
     <li><a class="facebook" href="http://www.facebook.com/girldevelopitcbus">Facebook</a></li>
     <li><a class="meetup" href="http://www.meetup.com/girldevelopitcbus/">Meetup</a></li>
@@ -73,10 +70,8 @@
 
   <h3><img class="sidebar-icon" height="14" src="../images/calendar-icon.png" width="14" /> Join</h3>
 
-  <h4><a href="http://www.meetup.com/girldevelopitcbus/events/dnvnhcyqfbtb/">GDI Code and Coffee &rarr;</a></h4>
-  <h5>15 March 2012, 6 PM<br />Global Gallery Coffee Shop</h5>
-
-  <h5><a href="http://www.meetup.com/girldevelopitcbus/events/calendar/">See all events &rarr;</a></h5>
+  <h4><a href="http://www.meetup.com/girldevelopitcbus/events/calendar/">GDIC Calendar &rarr;</a></h4>
+  <h5>Register for a class, or drop in on meetup</h5>
 
   <h3><img class="sidebar-icon" height="12" src="../images/tshirt-icon.png" width="14" /> Wear</h3>
 
@@ -90,26 +85,38 @@
 
 </div><!-- /sidebar -->
 
-            <div id="footer" class="clear">
+          <div class="footer">
 
-        <ul>
-          <li>The Girl Develop It Network</li>
-          <li> <img src="../images/bullet.png" height="8" width="5" /> </li>
-          <li><a href="http://www.girldevelopit.com/">New York</a></li>
-          <li> <img src="../images/bullet.png" height="8" width="5" /> </li>
-          <li><a href="http://www.meetup.com/Girl-Develop-It-Austin/">Austin</a></li>
-          <li> <img src="../images/bullet.png" height="8" width="5" /> </li>
-          <li><a href="http://www.meetup.com/Girl-Develop-It-Ottawa/">Ottawa</a></li>
-          <li> <img src="../images/bullet.png" height="8" width="5" /> </li>
-          <li><a href="http://www.meetup.com/Girl-Develop-It-Philadelphia/">Philadelphia</a></li>
-          <li> <img src="../images/bullet.png" height="8" width="5" /> </li>
-          <li>Want a new chapter? Start One!</li>
-        </ul>
+      <ul>
+        <li>The Girl Develop It Network</li>
+        <li> <img src="../images/bullet.png" height="8" width="5" /> </li>
+        <li><a href="http://www.girldevelopit.com/">New York</a></li>
+        <li> <img src="../images/bullet.png" height="8" width="5" /> </li>
+        <li><a href="http://www.meetup.com/Girl-Develop-It-Austin/">Austin</a></li>
+        <li> <img src="../images/bullet.png" height="8" width="5" /> </li>
+        <li><a href="http://www.meetup.com/Girl-Develop-It-Ottawa/">Ottawa</a></li>
+        <li> <img src="../images/bullet.png" height="8" width="5" /> </li>
+        <li><a href="http://www.meetup.com/Girl-Develop-It-Philadelphia/">Philadelphia</a></li>
+        <li> <img src="../images/bullet.png" height="8" width="5" /> </li>
+        <li><a href="http://www.meetup.com/Girl-Develop-It-Cincinnati/">Cincinnati</a></li>
+        <li> <img src="../images/bullet.png" height="8" width="5" /> </li>
+        <li><a href="http://www.girldevelopitpgh.com/">Pittsburgh</a></li>
+      </ul>
 
-      </div> <!-- /footer -->
+    </div> <!-- /footer -->
+  
+  <!-- Typekit -->  
+  <script type="text/javascript" src="http://use.typekit.com/igm2mgz.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.7.2.min.js"><\/script>')</script> -->
 
-    </div><!-- /container -->  
-	</div> <!-- /white-bar -->
+  <!-- scripts concatenated and minified via build script
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  -->
 
 </body>
 </html>
