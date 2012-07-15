@@ -189,7 +189,7 @@ h3 {
   font-weight: normal;
   letter-spacing: 1px;
   margin-bottom: 12px;
-  margin-top: 20px;
+  margin-top: 10px;
   text-transform: uppercase;
 }
 
@@ -209,7 +209,7 @@ h5 {
 .white-wrapper h3 {
   border-bottom: none;
   color: #8b2f33;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .black-wrapper h3 {
@@ -244,7 +244,8 @@ h5 {
 .post-single h3 {
   color: #666;
   font-size: 90%;
-  margin-top: 10px;
+  margin-top: -20px;
+  margin-bottom: 30px;
 }
 
 .post-single h4 {
