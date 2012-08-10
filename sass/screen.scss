@@ -95,18 +95,19 @@ p {
   }
 }
 
-label {
-  display: block;
-  font-size: 90%;
-}
+label { display: block; }
 
-label.inline {
-  display: inline;
-}
+label.inline { display: inline; }
+
+label.ss-q-title { font-weight: bold; }
 
 .pretty-form {
   ul.ss-choices {
     margin-bottom: 0;
+  }
+  .ss-form-entry {
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 1em;
   }
   input,textarea {
     @include border-radius(2px);
@@ -117,11 +118,15 @@ label.inline {
       background-color: #eee;
       border: 1px solid #ccc;
       color: #222;
-      font-size: 75%;
       letter-spacing: 1px;
       padding: 4px 8px;
       text-transform: uppercase;
     }
+  }
+  .submit {
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
   }
 }
 
@@ -348,7 +353,7 @@ ul#mission li {
 
 small {
   color: #666;
-  font-size: 75%;
+  font-size: 80%;
   text-transform: uppercase;
 }
 
