@@ -8,7 +8,6 @@ Frontiers we have yet to conquer:
   * current teachers
   * mentor guidelines
 * add media queries for responsive layout
-* research pulling in Meetup calendar data
 * clean up contact form markup
 
 

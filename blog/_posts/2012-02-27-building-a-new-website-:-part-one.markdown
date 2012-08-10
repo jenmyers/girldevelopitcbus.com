@@ -6,7 +6,7 @@ tags:
 comments: true
 ---
 
-<img src="images/building01.png" />
+<img src="images/building01.png" width="100%" />
 
 Even as the organizer of Girl Develop It Columbus and a teacher of our HTML/CSS classes, I have a lot to learn. I try to make each of my external projects an opportunity to explore something new and pick up some new skills. So, when it came time to design a new version of the GDIC website, I decided to stretch myself and try some tools I've never used before.
 
