@@ -569,7 +569,7 @@ a.rss:hover, a.rss:active {
 /* MEDIA QUERIES **********************************************************/
 
 /* < 320px ----------- */
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 480px) {
   .container, .footer {
     width: 320px;
   }
