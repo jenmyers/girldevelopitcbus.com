@@ -20,7 +20,7 @@
     
     <div class="header">
 
-      <h1><a href="/">Girl Develop It Columbus</a></h1>
+      <a class="logo" href="/"><img src="../images/logo-gdic.png" /></a>
     
       <ul class="nav">
         
@@ -36,7 +36,7 @@
         
       
         
-          <li><a href="../blog/">Blog</a></li>
+          <li><a href="http://girldevelopitcbus.tumblr.com/">Blog</a></li>
         
       
         
@@ -59,13 +59,13 @@
 
   <h3>Teachers &amp; Teaching Assistants</h3>
 
-  <p>We're almost always looking for more good teachers and TAs. We expect our teachers to no only be able to rock the subject matter but be particularly good at presenting it to beginners. If you want to participate in an existing class or have an idea for a future one, <a href="http://girldevelopitcbus.com/community/teacher-application.html">fill out our teacher/TA application form</a>.</p>
+  <p>We're almost always looking for more good teachers and TAs. We expect our teachers to no only be able to rock the subject matter but be particularly good at presenting it to beginners. If you want to participate in an existing class or have an idea for a future one, <a href="teacher-application.html">fill out our teacher/TA application form</a>.</p>
   
   <!-- <p>You can also get to know some of our <a href="teachers.html">current teachers</a>.</p> -->
 
   <h3>Speakers &amp; Workshops</h3>
   
-  <p>We host regular hack nights where coders from the community can get together, work on projects and help each other learn. Often, we have speakers who stop by to present on various topics related to the field. We're also developing a series of workshops to offer instruction on a broader range of languages and applications. If you're interested in leading or contributing, you can use our <a href="http://girldevelopitcbus.com/community/teacher-application.html">teacher application form</a> to let us know.</p>
+  <p>We host regular hack nights where coders from the community can get together, work on projects and help each other learn. Often, we have speakers who stop by to present on various topics related to the field. We're also developing a series of workshops to offer instruction on a broader range of languages and applications. If you're interested in leading or contributing, you can use our <a href="teacher-application.html">teacher application form</a> to let us know.</p>
 
   <h3>Mentorship program</h3>
 
@@ -128,14 +128,15 @@
   <script type="text/javascript" src="http://use.typekit.com/igm2mgz.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   
-  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline 
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.7.2.min.js"><\/script>')</script> -->
-
-  <!-- scripts concatenated and minified via build script
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-  -->
+  <script>window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.7.2.min.js"><\/script>')</script> 
+  
+  <script type="text/javascript" src="javascripts/jquery.anystretch.js"></script>
+  
+	<script>
+    $(".main-logo").anystretch("../images/logo-gdic.png");
+  </script>
 
 </body>
 </html>
